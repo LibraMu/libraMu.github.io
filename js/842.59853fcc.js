@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkidaas_admin"]=self["webpackChunkidaas_admin"]||[]).push([[842],{842:function(t,o,e){e.r(o),e.d(o,{default:function(){return l}});var s=e(3396),a=e(2483),n=e(65),u=e(3765);const i={class:"logout"};var r=(0,s.aZ)({__name:"logout",setup(t){const o=(0,a.yj)(),e=(0,n.oR)();let r=o.query.logoutId;return e.dispatch("system/userLogout",{logoutId:r}).then((t=>{u.Z.clearSessionAll(),window.location.href=t.postLogoutRedirectUri})),(t,o)=>((0,s.wg)(),(0,s.iD)("div",i,"正在登出..."))}});const c=r;var l=c}}]);
+//# sourceMappingURL=842.59853fcc.js.map

@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkidaas_admin"]=self["webpackChunkidaas_admin"]||[]).push([[397],{1397:function(n,r,a){a.r(r),a.d(r,{default:function(){return c}});var e=a(3396);function u(n,r){const a=(0,e.up)("router-view");return(0,e.wg)(),(0,e.j4)(a)}var t=a(89);const i={},s=(0,t.Z)(i,[["render",u]]);var c=s}}]);
+//# sourceMappingURL=397.8961996c.js.map
