@@ -1,0 +1,69 @@
+body,
+dl,
+dd,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+header,
+section,
+article,
+footer {
+	margin: 0;
+}
+
+em,
+i,
+b {
+	font-style: normal
+}
+
+a {
+	text-decoration: none;
+	/*color: #738a94;*/
+	color: #15171a;
+}
+
+a,
+img,
+input {
+	border: none;
+}
+
+button,
+input,
+select,
+textarea {
+	/*font-size: 100%;*/
+	outline: none
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+td,
+th,
+ul,
+ol {
+	padding: 0
+}
+
+
+body,
+html {
+	/*color: #35495e;*/
+	color: #15171a;
+	height: 100%;
+	font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+	/*font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;*/
+	/*background-color: #f7f7f7;*/
+	background-color: rgba(238, 243, 247, 0.2);
+}

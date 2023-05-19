@@ -1,0 +1,275 @@
+@import 'https://at.alicdn.com/t/font_1704189_ap46z87n71f.css';
+.center_container{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+}
+
+.contain_img{
+	object-fit: contain;
+}
+.cover_img{
+	object-fit: cover;
+}
+
+
+/* *********************** 默认样式 */
+.height100 {
+	height: 100%;
+}
+.width100{
+	width: 100%;
+}
+
+/* 设置滚动条的样式 */
+/* ::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+	background-color: #e4e4e4;
+} */
+
+/* 滚动槽 */
+/* ::-webkit-scrollbar-track {
+	border-radius: 10px;
+} */
+
+/* 滚动条滑块 */
+/* ::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: #558dfb;
+} */
+
+/* ***************** 布局常用类 */
+.wrapper{
+	height: 100%;
+}
+.white_wrap{
+	margin-bottom: 20px;
+}
+.white_box{
+	background-color: #fff;
+	border-radius: 10px;
+	/*border:1px solid #cecece;*/
+}
+.white_box_padding{
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.width_100 {
+	width: 100%;
+}
+.height_100{
+	height: 100%;
+}
+
+.display_flex {	
+	display: flex;
+}
+
+.position_relative {
+	position: relative;
+}
+
+.flex_center {
+	display: flex;
+	align-items: center;
+}
+
+.flex_all_center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex_justify_between {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex_between {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.flex_column{
+	display: flex;
+	flex-direction: column;
+}
+
+.auto{
+	overflow: auto;
+}
+.hidden{
+	overflow: hidden;
+}
+
+/* **************** 标签样式 */
+
+
+.h3{
+	font-weight: bold;
+	font-size: 20px;
+}
+.h4{
+	font-weight: bold;
+	font-size: 18px;
+}
+.h5{
+	font-size: 16px;
+	font-weight: bold;
+}
+.html_wrapper{
+	display: inline;
+	margin: 0;
+	white-space: pre-wrap; 
+	font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", Arial, sans-serif;
+}
+.border_box{
+	box-sizing: border-box;
+}
+.cursor_pointer{
+	cursor: pointer;
+
+}
+
+/* ******************* 文字样式类 */
+
+.text_right {
+	text-align: right;
+}
+
+.text_center {
+	text-align: center;
+}
+
+.text_left {
+	text-align: left;
+}
+
+.text_overflow {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.text_overflow3 {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+}
+
+.pre_html{
+    width: 100%;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+	font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", Arial, sans-serif;
+	/* overflow: hidden; */
+}
+
+
+/* ********************** 主题基调  */
+
+.color999{
+	/* color: #999; */
+	color: #515a6e;
+}
+.color666{
+	color: #666;
+}
+/* *************************** 字体大小 */
+.font_bold{
+	font-weight: bold;
+}
+.font_size12{
+	font-size: 12px;
+}
+.font_size14{
+	font-size: 14px;
+}
+.font_size16{
+	font-size: 16px;
+}
+.font_size18{
+	font-size: 18px;
+}
+.font_size20{
+	font-size: 20px;
+}
+.font_size22{
+	font-size: 22px;
+}
+.font_size24{
+	font-size: 24px;
+}
+.font_size26{
+	font-size: 26px;
+}
+.font_size28{
+	font-size: 28px;
+}
+.font_size30{
+	font-size: 30px;
+}
+
+/* ************************ 边距 */
+.mt10{
+	margin-top: 10px;
+}
+.mt20{
+	margin-top: 20px;
+}
+.mt30{
+	margin-top: 30px;
+}
+.mb5{
+	margin-bottom: 5px;
+}
+.mb10{
+	margin-bottom: 10px;
+}
+.mb20{
+	margin-bottom: 20px;
+}
+.mb30{
+	margin-bottom: 30px;
+}
+.mb40{
+	margin-bottom: 40px;
+}
+.ml5{
+	margin-left: 5px;
+}
+.ml10{
+	margin-left: 10px;
+}
+.ml20{
+	margin-left: 20px;
+}
+.ml30{
+	margin-left: 30px;
+}
+.mr5{
+	margin-right: 5px;
+}
+.mr10{
+	margin-right: 10px;
+}
+.mr20{
+	margin-right: 20px;
+}
+.mr30{
+	margin-right: 30px;
+}
+
+/*内边距*/
+.padding10{
+	padding: 10px;
+}
+.padding20{
+	padding: 20px;
+}
+.padding40{
+	padding: 40px;
+}
